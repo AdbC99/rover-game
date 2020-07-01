@@ -6,7 +6,7 @@ A quick demonstration of the MVC design pattern used for a commandline game. Thi
 
 Prerequesites: you must have the node installed on your machine, node 10.18.1 was used for development, but v12.18.2 appears to work fine. See here for details:
 
-    https://nodejs.org/en/download/
+https://nodejs.org/en/download/
 
 Download the source code either through cloning this github repository or downloading it as a zip file and in the project roor type:
 
