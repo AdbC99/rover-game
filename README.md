@@ -1,6 +1,6 @@
 # Rover Game
 
-A quick demonstration of MVC used for a commandline game. This repository contains a few basic unit tests and has a test folder with some sample input files.
+A quick demonstration of the MVC design pattern used for a commandline game. This repository contains a few basic unit tests and has a test folder with some sample input files.
 
 ## Install 
 
