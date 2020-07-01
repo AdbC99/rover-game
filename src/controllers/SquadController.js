@@ -25,7 +25,7 @@ export default class SquadController {
         {
             if (this.Instructions[i].trim().length == 0)
                 continue;
-                
+
             if (this.Logging)
                 console.log("Processing instruction: " + this.Instructions[i]);           
 
@@ -53,8 +53,12 @@ export default class SquadController {
 
     displayRovers()
     {
+        let output = [];
+
         this.Views.forEach(view => {
-            view.Display();
+            output.push(view.Display());
         })
+
+        return output; // for unit testing
     }
 }

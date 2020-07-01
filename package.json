@@ -5,23 +5,11 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node -r esm src/index.js",
-    "test": "nyc mocha --exit --colors **/**/*.test.js"
+    "test": "nyc mocha -r esm --exit --colors **/**/*.test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AdbC99/rover-game.git"
-  },
-  "nyc": {
-    "extension": [
-      ".js"
-    ],
-    "exclude": [
-      "**/*.test.js"
-    ],
-    "reporter": [
-      "html"
-    ],
-    "all": true
   },
   "author": "",
   "license": "ISC",
@@ -32,7 +20,9 @@
   "dependencies": {
     "chai": "^4.2.0",
     "esm": "^3.2.25",
-    "mocha": "^8.0.1",
+    "mocha": "^8.0.1"
+  },
+  "devDependencies": {
     "nyc": "^15.1.0"
   }
 }
