@@ -4,7 +4,7 @@ A quick demonstration of the MVC design pattern used for a commandline game. Thi
 
 ## Install 
 
-Prerequesites: you must have the node installed on your machine, node 10.18.1 was used for development, but v12.18.2 appears to work fine. See here for details:
+Prerequesites: you must have node installed on your machine, node 10.18.1 was used for development, but v12.18.2 appears to work fine. See here for details:
 
 https://nodejs.org/en/download/
 
