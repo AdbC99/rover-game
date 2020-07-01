@@ -1,0 +1,38 @@
+{
+  "name": "rover-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r esm src/index.js",
+    "test": "nyc mocha --exit --colors **/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdbC99/rover-game.git"
+  },
+  "nyc": {
+    "extension": [
+      ".js"
+    ],
+    "exclude": [
+      "**/*.test.js"
+    ],
+    "reporter": [
+      "html"
+    ],
+    "all": true
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdbC99/rover-game/issues"
+  },
+  "homepage": "https://github.com/AdbC99/rover-game#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0"
+  }
+}
